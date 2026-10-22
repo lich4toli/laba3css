@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторная 3</title>
+  <link rel="stylesheet" href="laba3css.css">
+</head>
+<body>
+
+<!-- ================= ШАПКА ================= -->
+<div class="header">
+  <h1>INSTRUCTIONAL DESIGN</h1>
+</div>
+
+
+<div class="nav">
+  <a href="#" class="pt">Главная</a>
+  <a href="#" class="pt">Отделы продаж</a>
+  <a href="#" class="pt">Поставщики</a>
+  <a href="#" class="pt">Контакты</a>
+  <a href="#" class="pt">О нас</a>
+</div>
+
+
+<div class="layout">
+
+  <!-- ЛЕВАЯ КОЛОНКА -->
+  <div class="left">
+    <div class="box-title">Новости</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Iste accusamus rerum omnis adipisci corporis est possimus
+      dolor sit vero, cumque incidunt exercitationem quaesdam.
+    </p>
+  </div>
+
+  <!-- ПРАВАЯ КОЛОНКА -->
+  <div class="right">
+    <div class="box-title">Контакты</div>
+    <p>
+      <b>Адрес:</b> г. Москва, ул. Академика Королева 12<br>
+      <b>Телефон:</b> 8-999-999-99-99
+    </p>
+
+    <div class="box-title">Услуги</div>
+    <ul>
+      <li>Разработка дизайна</li>
+      <li>Разработка web-приложений</li>
+      <li>Разработка web-сервисов</li>
+    </ul>
+  </div>
+
+
+  <div class="center">
+
+    <!-- Карточки-картинки с всплывающей подсказкой -->
+    <div class="icon">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd7Q1DrVQ_9u2eVXZXdydpblMrFfE8HFo-Jvn8LPWs4A&s=10" alt="RSS">
+      <div class="popup">Это всплывающая подсказка к первой картинке (RSS)</div>
+    </div>
+
+    <div class="icon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/120px-Logo_of_Twitter.svg.png" alt="Twitter">
+      <div class="popup">Вторая подсказка: Twitter</div>
+    </div>
+
+    <div class="icon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/120px-LinkedIn_logo_initials.png" alt="LinkedIn">
+      <div class="popup">Третья подсказка: LinkedIn</div>
+    </div>
+
+    <div class="icon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/120px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube">
+      <div class="popup">Четвёртая подсказка: YouTube</div>
+    </div>
+
+    <div class="icon">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhLxmJzx83sU1Y2-pZ821x3kBgICTYzxXmvfJdoj6BkA&s=10" alt="Instagram">
+      <div class="popup">Пятая подсказка: Instagram</div>
+    </div>
+
+  </div>
+
+</div>
+
+<h2 class="task-title">Задание 2. Вертикальное меню с выпадающим подменю</h2>
+
+<div class="vmenu">
+
+  <div class="vitem">
+    <a href="#" class="vlink">Главная</a>
+    <div class="vdrop">
+      <a href="#" class="vdrop-item">Главная страница</a>
+      <a href="#" class="vdrop-item">Контакты</a>
+      <a href="#" class="vdrop-item">О нас</a>
+    </div>
+  </div>
+
+  <div class="vitem">
+    <a href="#" class="vlink">Отделы продаж</a>
+    <div class="vdrop">
+      <a href="#" class="vdrop-item">Отдел 1</a>
+      <a href="#" class="vdrop-item">Отдел 2</a>
+    </div>
+  </div>
+
+  <a href="#" class="vlink">Поставщики</a>
+  <a href="#" class="vlink">Наши услуги</a>
+  <a href="#" class="vlink">Контакты</a>
+  <a href="#" class="vlink">О нас</a>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- ====== ЗАДАНИЕ 2*. Вертикальное меню с ДВОЙНОЙ вложенностью -->
+<!-- ========================================================= -->
+<h2 class="task-title">Задание 2*. Вертикальное меню с двойной вложенностью</h2>
+
+<div class="vmenu">
+
+  <div class="vitem">
+    <a href="#" class="vlink">Главная</a>
+    <div class="vdrop">
+      <a href="#" class="vdrop-item">Главная страница</a>
+      <a href="#" class="vdrop-item">Контакты</a>
+      <a href="#" class="vdrop-item">О нас</a>
+    </div>
+  </div>
+
+  <div class="vitem">
+    <a href="#" class="vlink">Отделы продаж</a>
+  </div>
+
+  <div class="vitem">
+    <a href="#" class="vlink">Поставщики</a>
+    <div class="vdrop">
+
+      <div class="vsubitem">
+        <a href="#" class="vdrop-item">ООО "Дизайн"</a>
+        <div class="vsubdrop">
+          <a href="#" class="vsubdrop-item">ООО "Дизайн" — филиал 1</a>
+          <a href="#" class="vsubdrop-item">ООО "Дизайн" — филиал 2</a>
+        </div>
+      </div>
+
+      <div class="vsubitem">
+        <a href="#" class="vdrop-item">ООО "Арт"</a>
+        <div class="vsubdrop">
+          <a href="#" class="vsubdrop-item">ООО "Арт" — филиал 1</a>
+          <a href="#" class="vsubdrop-item">ООО "Арт" — филиал 2</a>
+        </div>
+      </div>
+
+      <a href="#" class="vdrop-item">ООО "Фотостиль"</a>
+
+    </div>
+  </div>
+
+  <a href="#" class="vlink">Наши услуги</a>
+  <a href="#" class="vlink">Контакты</a>
+  <a href="#" class="vlink">О нас</a>
+
+</div>
+
+<h2 class="task-title">Задание 3. Вертикальное меню по образцу</h2>
+
+<div class="vmenu3">
+
+  <div class="vitem3">
+    <a href="#" class="vlink3">Главная</a>
+    <div class="vdrop3">
+      <a href="#" class="vdrop3-item">Главная страница</a>
+      <a href="#" class="vdrop3-item">Контакты</a>
+      <a href="#" class="vdrop3-item">О нас</a>
+    </div>
+  </div>
+
+  <div class="vitem3">
+    <a href="#" class="vlink3">Отделы продаж</a>
+  </div>
+
+  <div class="vitem3">
+    <a href="#" class="vlink3">Поставщики</a>
+    <div class="vdrop3">
+      <a href="#" class="vdrop3-item">ООО "Дизайн"</a>
+      <a href="#" class="vdrop3-item">ООО "Арт"</a>
+      <a href="#" class="vdrop3-item">ООО "Фотостиль"</a>
+    </div>
+  </div>
+
+  <div class="vitem3">
+    <a href="#" class="vlink3">Наши услуги</a>
+  </div>
+
+  <div class="vitem3">
+    <a href="#" class="vlink3">Контакты</a>
+  </div>
+
+  <div class="vitem3">
+    <a href="#" class="vlink3">О нас</a>
+  </div>
+
+</div>
+
+</body>
+</html>
